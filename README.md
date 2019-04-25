@@ -2,7 +2,7 @@
 
 This faked out module contains a controller and template for your own custom path.
 
-Put this file in [magento root]/app/code then run:
+Put this code in [magento root]/app/code/MyCompany/Module then run:
 
 bin/magento module:install MyCompany_MyModule
 
