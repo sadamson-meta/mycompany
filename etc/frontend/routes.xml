@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--
+frontname is the first component of URL that identifies that this module has controllers serving that path.
+See the Controller directory for how we handle deeper URLs on the same path.
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route frontName="frontname" id="routeid">
+            <module name="MyCompany_MyModule"/>
+        </route>
+    </router>
+</config>
